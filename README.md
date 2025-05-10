@@ -4,7 +4,8 @@ This repository contains coursework for the **Systems Analysis and Design** clas
 
 ## 📁 Folder Structure
 
-- `Workshop-1/` – A brief System analysis from a competition from Kaggle  
+- `Workshop-1/` – A brief System analysis from a competition from Kaggle
+- `Workshop-2/` – A brief System design from analysis in workshop 1
 
 
 ## 📌 About the Course
