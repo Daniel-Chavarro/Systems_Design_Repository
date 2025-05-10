@@ -19,7 +19,7 @@ The system design for this workshop was developed through an iterative process:
 
 1. **Initial Architecture Design**: We started by creating a baseline architecture that addressed the core functional requirements of the system without the evaluation components (see `System-WithoutEvaluation.png`).
 
-2. **Evaluation Integration**: After establishing the core architecture, we incorporated evaluation mechanisms to enable performance monitoring, quality assessment, and continuous improvement (see `System-full.png`).
+2. **Evaluation Integration**: After establishing the core architecture, we included the evaluation mechanisms created and applied by Kaggle's competition to enable performance monitoring, quality assessment, and continuous improvement (see `System-full.png`).
 
 3. **Documentation**: The entire development process, including requirements analysis, design decisions, implementation guidelines, and evaluation strategies, has been documented in the final PDF report.
 
@@ -48,10 +48,3 @@ For a comprehensive understanding of the system design, including detailed expla
 - Clear separation of concerns between system components
 - Detailed documentation of all design decisions and rationales
 
-## Future Work
-
-Future enhancements to this system design could include:
-- Integration with additional external systems
-- Enhanced security features
-- Performance optimizations
-- Expanded evaluation metrics
