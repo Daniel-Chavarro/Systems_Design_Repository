@@ -23,10 +23,6 @@ These constraints significantly impact system design, prompting the need for eff
 ## 📁 Contents
 - `Workshop 1.pdf` – Contains the system analysis of the competence 
 
-## 👥 Authors
-- Daniel Alonso Chavarro Chipatecua
-- Carlos Andrés Brito Guerrero
-- Jose Fernando Ramirez Ortiz
 
 ## 📚 References
 
