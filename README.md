@@ -6,7 +6,7 @@ This repository contains coursework for the **Systems Analysis and Design** clas
 
 - `Workshop-1/` – A brief System analysis from a competition from Kaggle
 - `Workshop-2/` – A brief System design from analysis in workshop 1
-- 'Project' - Files of the project
+- ´Project/´ - Files of the project
 
 ## 👥 Authors
 - Daniel Alonso Chavarro Chipatecua
