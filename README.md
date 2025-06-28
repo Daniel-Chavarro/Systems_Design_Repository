@@ -1,16 +1,9 @@
 # Systems Analysis and Design
 
-This## 🛠️ Development Methodology
+## 🛠️ Development Methodology
 
-### Worksh## 🏆 Results and Achievements
 
-- **Complete systemic analysis** of a real competition problem
-- **Modular and scalable architecture** with clear separation of responsibilities
-- **Successful simulation** with high constraint compliance rate
-- **Complete academic documentation** ready for publication
-- **Practical implementation** with generative AI tools
-
-## 👥 Authorsstemic Analysis
+## 👥 Sistemic Analysis
 **Focus:** Detailed analysis of the Kaggle competition "Drawing with LLMs"
 - Conducted a **systemic analysis** of components, constraints, and objectives
 - Identified system limitations (SVG format, computational resources, no internet access)
@@ -50,14 +43,13 @@ Systems_Design_Repository/
         └── Presentaciónpdf.pdf ← [📄 Presentation](./Project/documentation/Presentaciónpdf.pdf)
 ```
 
-## �️ Metodología de Desarrollo
+### Workshop 1 - Systemic Analysis
 
-### Workshop 1 - Análisis Sistémico
-**Enfoque:** Análisis detallado de la competencia de Kaggle "Drawing with LLMs"
-- Se realizó un **análisis sistémico** de los componentes, restricciones y objetivos
-- Se identificaron las limitaciones del sistema (SVG, recursos computacionales, sin acceso a internet)
-- Se documentó la base competitiva y las métricas de evaluación
-- **Documento:** [Workshop_1.pdf](./Workshop-1/Workshop_1.pdf)
+**Focus:** Detailed analysis of the Kaggle competition "Drawing with LLMs"
+- A **systemic analysis** of the components, restrictions and objectives was performed
+- System limitations were identified (SVG, computing resources, no internet access)
+- The competitive basis and evaluation metrics were documented
+- **Document:** [Workshop_1.pdf](./Workshop-1/Workshop_1.pdf)
 
 ### Workshop 2 - Systems Design
 **Focus:** Iterative development of system architecture
@@ -87,15 +79,15 @@ Systems_Design_Repository/
   - [Presentation.pdf](./Project/documentation/Presentaciónpdf.pdf)
   - [Poster.pdf](./Project/documentation/poster.pdf)
 
-## � Resultados y Logros
+### 🏆 Results and Achievements
 
-- **Análisis sistémico completo** de un problema real de competencia
-- **Arquitectura modular y escalable** con separación clara de responsabilidades
-- **Simulación exitosa** con alta tasa de cumplimiento de restricciones
-- **Documentación académica completa** lista para publicación
-- **Implementación práctica** con herramientas de IA generativa
+- **Complete systemic analysis** of a real competition problem
+- **Modular and scalable architecture** with clear separation of responsibilities
+- **Successful simulation** with high constraint compliance rate
+- **Complete academic documentation** ready for publication
+- **Practical implementation** with generative AI tools
 
-## ��� Autores
+## 👥 Authors
 - Daniel Alonso Chavarro Chipatecua
 - Carlos Andrés Brito Guerrero
 - Jose Fernando Ramirez Ortiz
