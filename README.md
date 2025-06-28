@@ -2,8 +2,6 @@
 
 ## 🛠️ Development Methodology
 
-
-## 👥 Sistemic Analysis
 **Focus:** Detailed analysis of the Kaggle competition "Drawing with LLMs"
 - Conducted a **systemic analysis** of components, constraints, and objectives
 - Identified system limitations (SVG format, computational resources, no internet access)
