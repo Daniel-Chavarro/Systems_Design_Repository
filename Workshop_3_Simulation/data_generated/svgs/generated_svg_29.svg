@@ -1,0 +1,72 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="360" fill="#87CEEB"/>
+  
+  <!-- Distant Forest/Hills (Horizon Line) -->
+  <path d="M 0 360 C 100 340 200 350 300 345 C 400 340 500 350 600 345 C 700 340 800 350 800 360 Z" fill="#466A2C"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="360" width="800" height="240" fill="#556B2F"/>
+
+  <!-- Path -->
+  <path d="M 280 600 L 370 360 L 430 360 L 520 600 Z" fill="#D2B48C"/>
+  <path d="M 290 600 L 375 370 L 425 370 L 510 600 Z" fill="#C0A078"/>
+
+  <!-- Trees (ordered from back to front for layering) -->
+
+  <!-- Distant Trees (simple shapes, lighter/muted green) -->
+  <g fill="#3CB371">
+    <circle cx="360" cy="340" r="10"/>
+    <circle cx="380" cy="345" r="12"/>
+    <circle cx="400" cy="340" r="11"/>
+    <circle cx="420" cy="348" r="13"/>
+    <circle cx="440" cy="342" r="10"/>
+    <circle cx="340" cy="348" r="10"/>
+    <circle cx="320" cy="340" r="9"/>
+    <circle cx="460" cy="340" r="9"/>
+  </g>
+
+  <!-- Mid-ground Trees (more defined trunks, slightly darker green) -->
+  <g fill="#228B22">
+    <!-- Tree 1 Left -->
+    <rect x="250" y="270" width="10" height="90" fill="#A0522D"/>
+    <path d="M 240 270 Q 255 220 270 270 Z"/>
+    <!-- Tree 2 Right -->
+    <rect x="540" y="270" width="10" height="90" fill="#A0522D"/>
+    <path d="M 530 270 Q 545 220 560 270 Z"/>
+    <!-- Tree 3 Left -->
+    <rect x="180" y="290" width="8" height="70" fill="#A0522D"/>
+    <path d="M 172 290 Q 184 250 196 290 Z"/>
+    <!-- Tree 4 Right -->
+    <rect x="600" y="290" width="8" height="70" fill="#A0522D"/>
+    <path d="M 592 290 Q 604 250 616 290 Z"/>
+  </g>
+
+  <!-- Closer Mid-ground Trees -->
+  <g>
+    <!-- Tree 5 Left -->
+    <rect x="140" y="220" width="15" height="200" fill="#A0522D"/>
+    <path d="M 130 220 C 140 170 160 170 170 220 Z" fill="#228B22"/>
+    <path d="M 120 280 C 130 230 150 230 160 280 Z" fill="#556B2F"/>
+
+    <!-- Tree 6 Right -->
+    <rect x="645" y="220" width="15" height="200" fill="#A0522D"/>
+    <path d="M 635 220 C 645 170 665 170 675 220 Z" fill="#228B22"/>
+    <path d="M 625 280 C 635 230 655 230 665 280 Z" fill="#556B2F"/>
+  </g>
+
+  <!-- Foreground Trees (tallest, most detailed, darkest green/brown) -->
+  <g>
+    <!-- Tree A Left -->
+    <rect x="80" y="100" width="25" height="400" fill="#8B4513"/>
+    <path d="M 60 100 C 70 30 110 30 120 100 Z" fill="#228B22"/>
+    <path d="M 50 200 C 60 130 100 130 110 200 Z" fill="#228B22"/>
+    <path d="M 70 300 C 80 230 120 230 130 300 Z" fill="#556B2F"/>
+
+    <!-- Tree B Right -->
+    <rect x="695" y="100" width="25" height="400" fill="#8B4513"/>
+    <path d="M 675 100 C 685 30 725 30 735 100 Z" fill="#228B22"/>
+    <path d="M 665 200 C 675 130 715 130 725 200 Z" fill="#228B22"/>
+    <path d="M 685 300 C 695 230 735 230 745 300 Z" fill="#556B2F"/>
+  </g>
+</svg>

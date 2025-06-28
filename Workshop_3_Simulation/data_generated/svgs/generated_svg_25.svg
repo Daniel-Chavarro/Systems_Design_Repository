@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- White Shirt -->
+  <path d="M20 20 H80 V30 H90 V40 H80 V50 H20 V40 H10 V30 H20 Z" fill="#FFFFFF"/>
+  <!-- Blue Jeans -->
+  <path d="M25 50 H75 L65 90 H35 L25 60 Z" fill="#4682B4"/>
+</svg>

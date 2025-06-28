@@ -1,0 +1,11 @@
+<svg width="200" height="300" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main dress body -->
+  <path d="M 70 50 L 130 50 L 145 200 Q 120 230 100 220 T 55 200 Z" 
+        fill="#CC0000" />
+  
+  <!-- Flowing fabric detail (layers to enhance movement) -->
+  <path d="M 65 185 Q 80 205 100 210 S 130 210 135 190 Q 120 175 100 180 S 80 170 65 185 Z" 
+        fill="#DD0000" fill-opacity="0.7" />
+  <path d="M 70 175 Q 85 195 100 200 S 125 200 130 180 Q 115 165 100 170 S 85 160 70 175 Z" 
+        fill="#AA0000" fill-opacity="0.7" />
+</svg>

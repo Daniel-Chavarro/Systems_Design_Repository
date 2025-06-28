@@ -1,0 +1,16 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="280" fill="#87CEEB"/>
+
+  <!-- Distant Mountains -->
+  <path d="M0 280 L0 220 C200 150 600 150 800 220 L800 280 Z" fill="#8B4513"/>
+
+  <!-- Valley Left Side -->
+  <path d="M0 600 L0 280 C150 180 250 220 380 280 L300 600 Z" fill="#6B4226"/>
+
+  <!-- Valley Right Side -->
+  <path d="M800 600 L800 280 C650 180 550 220 420 280 L500 600 Z" fill="#6B4226"/>
+
+  <!-- River -->
+  <path d="M300 600 L380 280 L420 280 L500 600 Z" fill="#4682B4"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg width="200" height="300" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <!-- Main Coat Body (includes sleeves and overall shape) -->
+    <path fill="#5A4A3C"
+          d="M 40 50        <!-- Top left shoulder -->
+             C 30 30 70 20 100 20  <!-- Neckline curve -->
+             C 130 20 170 30 160 50 <!-- Top right shoulder -->
+             L 170 80      <!-- Start of right sleeve outer edge -->
+             C 180 90 180 180 170 200 <!-- Right sleeve outer curve -->
+             L 160 200     <!-- Right sleeve inner armhole point -->
+             L 160 260     <!-- Right side of coat body down -->
+             C 160 280 140 290 120 290 <!-- Bottom right hem curve -->
+             L 80 290      <!-- Bottom straight hem -->
+             C 60 290 40 280 40 260 <!-- Bottom left hem curve -->
+             L 40 200      <!-- Left side of coat body down -->
+             L 30 200      <!-- Left sleeve inner armhole point -->
+             C 20 180 20 90 30 80 <!-- Left sleeve outer curve -->
+             Z" />
+
+    <!-- Inner Lapels / Front Opening (creates depth) -->
+    <path fill="#4A3C32"
+          d="M 100 20      <!-- Top center (neckline) -->
+             L 70 80       <!-- Left lapel tip -->
+             L 70 260      <!-- Left side of front opening -->
+             L 80 290      <!-- Left bottom of front opening -->
+             L 120 290     <!-- Right bottom of front opening -->
+             L 130 260     <!-- Right side of front opening -->
+             L 130 80      <!-- Right lapel tip -->
+             Z" />
+
+    <!-- Collar Flap (overlay on top of lapels) -->
+    <path fill="#3A2A1C"
+          d="M 70 80 Q 100 60 130 80 Z" />
+
+    <!-- Buttons -->
+    <g fill="#A0A0A0">
+      <circle cx="100" cy="120" r="6" />
+      <circle cx="100" cy="160" r="6" />
+      <circle cx="100" cy="200" r="6" />
+      <circle cx="100" cy="240" r="6" />
+    </g>
+
+    <!-- Optional: Simple Pocket -->
+    <rect x="70" y="200" width="60" height="30" rx="5" ry="5" fill="#4A3C32" />
+
+  </g>
+</svg>

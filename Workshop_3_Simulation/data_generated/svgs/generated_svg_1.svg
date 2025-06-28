@@ -1,0 +1,48 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky: Deep purple at dusk -->
+  <rect x="0" y="0" width="800" height="600" fill="#180030" />
+
+  <!-- Moon: Faint, pale light -->
+  <circle cx="700" cy="120" r="40" fill="#E0E0E0" opacity="0.4" />
+
+  <!-- Distant trees (lighter, more desaturated purple) -->
+  <g fill="#3A0A6F">
+    <polygon points="50,380 20,500 80,500" />
+    <polygon points="130,360 100,500 160,500" />
+    <polygon points="210,390 180,500 240,500" />
+    <polygon points="290,370 260,500 320,500" />
+    <polygon points="370,385 340,500 400,500" />
+    <polygon points="450,365 420,500 480,500" />
+    <polygon points="530,395 500,500 560,500" />
+    <polygon points="610,375 580,500 640,500" />
+    <polygon points="690,380 660,500 720,500" />
+    <polygon points="770,360 740,500 800,500" />
+  </g>
+
+  <!-- Mid-distance trees (medium purple) -->
+  <g fill="#2B0754">
+    <polygon points="80,420 40,550 120,550" />
+    <polygon points="180,400 140,550 220,550" />
+    <polygon points="280,430 240,550 320,550" />
+    <polygon points="380,410 340,550 420,550" />
+    <polygon points="480,440 440,550 520,550" />
+    <polygon points="580,420 540,550 620,550" />
+    <polygon points="680,450 640,550 720,550" />
+    <polygon points="780,430 740,550 820,550" />
+  </g>
+
+  <!-- Foreground trees (darkest purple, reaching bottom of view) -->
+  <g fill="#1C0438">
+    <polygon points="30,480 0,600 60,600" />
+    <polygon points="100,460 70,600 130,600" />
+    <polygon points="190,490 160,600 220,600" />
+    <polygon points="260,470 230,600 290,600" />
+    <polygon points="330,500 300,600 360,600" />
+    <polygon points="400,480 370,600 430,600" />
+    <polygon points="470,510 440,600 500,600" />
+    <polygon points="540,490 510,600 570,600" />
+    <polygon points="610,520 580,600 640,600" />
+    <polygon points="680,500 650,600 710,600" />
+    <polygon points="750,530 720,600 780,600" />
+  </g>
+</svg>

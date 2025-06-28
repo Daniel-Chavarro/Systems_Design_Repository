@@ -1,0 +1,54 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#1A1A2E"/>
+
+  <!-- Layer 1: Large, low opacity circles for background depth -->
+  <circle cx="150" cy="120" r="90" fill="#EE964B" opacity="0.15"/>
+  <circle cx="400" cy="80" r="110" fill="#F4D35E" opacity="0.1"/>
+  <circle cx="650" cy="180" r="100" fill="#F95738" opacity="0.2"/>
+  <circle cx="100" cy="350" r="85" fill="#90CCF4" opacity="0.18"/>
+  <circle cx="300" cy="250" r="120" fill="#5DA2D5" opacity="0.17"/>
+  <circle cx="500" cy="400" r="95" fill="#EE964B" opacity="0.16"/>
+  <circle cx="750" cy="300" r="115" fill="#F4D35E" opacity="0.12"/>
+  <circle cx="200" cy="500" r="105" fill="#F95738" opacity="0.19"/>
+  <circle cx="450" cy="550" r="80" fill="#90CCF4" opacity="0.14"/>
+  <circle cx="600" cy="500" r="130" fill="#5DA2D5" opacity="0.15"/>
+  <circle cx="50" cy="20" r="70" fill="#EE964B" opacity="0.13"/>
+  <circle cx="700" cy="50" r="90" fill="#F95738" opacity="0.18"/>
+  <circle cx="350" cy="15" r="80" fill="#90CCF4" opacity="0.11"/>
+  <circle cx="780" cy="580" r="100" fill="#5DA2D5" opacity="0.1"/>
+  <circle cx="250" cy="30" r="75" fill="#F4D35E" opacity="0.16"/>
+
+  <!-- Layer 2: Medium, mid opacity circles for main body -->
+  <circle cx="170" cy="140" r="60" fill="#F95738" opacity="0.5"/>
+  <circle cx="420" cy="100" r="80" fill="#90CCF4" opacity="0.45"/>
+  <circle cx="670" cy="200" r="70" fill="#5DA2D5" opacity="0.55"/>
+  <circle cx="120" cy="370" r="65" fill="#EE964B" opacity="0.48"/>
+  <circle cx="320" cy="270" r="90" fill="#F4D35E" opacity="0.47"/>
+  <circle cx="520" cy="420" r="70" fill="#F95738" opacity="0.46"/>
+  <circle cx="770" cy="320" r="85" fill="#90CCF4" opacity="0.42"/>
+  <circle cx="220" cy="520" r="75" fill="#5DA2D5" opacity="0.49"/>
+  <circle cx="470" cy="570" r="60" fill="#EE964B" opacity="0.44"/>
+  <circle cx="620" cy="520" r="95" fill="#F4D35E" opacity="0.4"/>
+  <circle cx="70" cy="40" r="50" fill="#F95738" opacity="0.43"/>
+  <circle cx="720" cy="70" r="65" fill="#90CCF4" opacity="0.48"/>
+  <circle cx="370" cy="35" r="55" fill="#5DA2D5" opacity="0.41"/>
+  <circle cx="790" cy="590" r="70" fill="#EE964B" opacity="0.4"/>
+  <circle cx="270" cy="50" r="50" fill="#F95738" opacity="0.45"/>
+
+  <!-- Layer 3: Small, high opacity circles for highlights and detail -->
+  <circle cx="180" cy="150" r="30" fill="#90CCF4" opacity="0.8"/>
+  <circle cx="430" cy="110" r="40" fill="#5DA2D5" opacity="0.75"/>
+  <circle cx="680" cy="210" r="35" fill="#EE964B" opacity="0.85"/>
+  <circle cx="130" cy="380" r="30" fill="#F4D35E" opacity="0.78"/>
+  <circle cx="330" cy="280" r="45" fill="#F95738" opacity="0.77"/>
+  <circle cx="530" cy="430" r="35" fill="#90CCF4" opacity="0.76"/>
+  <circle cx="780" cy="330" r="40" fill="#5DA2D5" opacity="0.72"/>
+  <circle cx="230" cy="530" r="40" fill="#EE964B" opacity="0.79"/>
+  <circle cx="480" cy="580" r="30" fill="#F4D35E" opacity="0.74"/>
+  <circle cx="630" cy="530" r="50" fill="#F95738" opacity="0.7"/>
+  <circle cx="80" cy="50" r="25" fill="#90CCF4" opacity="0.73"/>
+  <circle cx="730" cy="80" r="30" fill="#5DA2D5" opacity="0.78"/>
+  <circle cx="380" cy="45" r="25" fill="#EE964B" opacity="0.71"/>
+  <circle cx="795" cy="595" r="35" fill="#F4D35E" opacity="0.7"/>
+  <circle cx="280" cy="60" r="25" fill="#90CCF4" opacity="0.75"/>
+</svg>

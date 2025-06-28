@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <!-- Tree shapes defined relative to a top-center point (base of 'trunk' is implicit lowest point) -->
+    <!-- Tree 1: Tall, somewhat spiky pine-like silhouette -->
+    <path id="t1" d="M40 0L0 80L10 80L0 120L20 120L10 160L40 160L70 160L60 120L80 120L70 80L80 80Z"/>
+    <!-- Tree 2: Wider, fuller tree silhouette -->
+    <path id="t2" d="M30 0L0 60L10 60L0 100L15 100L5 140L30 140L55 140L45 100L60 100L50 60L60 60Z"/>
+    <!-- Tree 3: Smaller, more conical tree silhouette -->
+    <path id="t3" d="M25 0L0 50L5 50L0 80L10 80L5 110L25 110L45 110L40 80L50 80L45 50L50 50Z"/>
+  </defs>
+
+  <!-- Sky: Simulated gradient using stacked rectangles for dusk effect -->
+  <rect x="0" y="0" width="800" height="80" fill="#2a002a"/>
+  <rect x="0" y="80" width="800" height="80" fill="#3a003a"/>
+  <rect x="0" y="160" width="800" height="80" fill="#4a004a"/>
+  <rect x="0" y="240" width="800" height="80" fill="#5a005a"/>
+  <rect x="0" y="320" width="800" height="80" fill="#7a1a7a"/>
+
+  <!-- Ground: Dark purple near the horizon line (y=400) -->
+  <rect x="0" y="400" width="800" height="200" fill="#1a001a"/>
+
+  <!-- Forest Layers (rendered from back to front to create depth) -->
+
+  <!-- Layer 1: Distant Trees - lighter purple silhouettes, smaller scale -->
+  <g fill="#300030">
+    <use href="#t3" transform="translate(50 370) scale(0.6)"/>
+    <use href="#t2" transform="translate(120 365) scale(0.5)"/>
+    <use href="#t3" transform="translate(200 375) scale(0.6)"/>
+    <use href="#t1" transform="translate(280 350) scale(0.55)"/>
+    <use href="#t2" transform="translate(350 360) scale(0.6)"/>
+    <use href="#t3" transform="translate(420 370) scale(0.5)"/>
+    <use href="#t1" transform="translate(500 355) scale(0.6)"/>
+    <use href="#t2" transform="translate(580 360) scale(0.55)"/>
+    <use href="#t3" transform="translate(650 370) scale(0.6)"/>
+    <use href="#t1" transform="translate(720 350) scale(0.5)"/>
+  </g>
+
+  <!-- Layer 2: Mid-distance Trees - darker purple silhouettes, medium scale -->
+  <g fill="#200020">
+    <use href="#t1" transform="translate(20 320) scale(0.8)"/>
+    <use href="#t2" transform="translate(100 330) scale(0.7)"/>
+    <use href="#t3" transform="translate(180 340) scale(0.9)"/>
+    <use href="#t1" transform="translate(260 325) scale(0.85)"/>
+    <use href="#t2" transform="translate(340 335) scale(0.75)"/>
+    <use href="#t3" transform="translate(410 345) scale(0.8)"/>
+    <use href="#t1" transform="translate(490 330) scale(0.8)"/>
+    <use href="#t2" transform="translate(570 340) scale(0.7)"/>
+    <use href="#t3" transform="translate(640 350) scale(0.9)"/>
+    <use href="#t1" transform="translate(710 330) scale(0.75)"/>
+  </g>
+
+  <!-- Layer 3: Foreground Trees - darkest purple/almost black silhouettes, larger scale -->
+  <g fill="#100010">
+    <use href="#t2" transform="translate(-10 260) scale(1.1)"/>
+    <use href="#t1" transform="translate(70 240) scale(1.2)"/>
+    <use href="#t3" transform="translate(160 270) scale(1.0)"/>
+    <use href="#t2" transform="translate(240 250) scale(1.15)"/>
+    <use href="#t1" transform="translate(320 230) scale(1.25)"/>
+    <use href="#t3" transform="translate(400 260) scale(1.05)"/>
+    <use href="#t2" transform="translate(480 245) scale(1.2)"/>
+    <use href="#t1" transform="translate(560 225) scale(1.3)"/>
+    <use href="#t3" transform="translate(640 255) scale(1.1)"/>
+    <use href="#t2" transform="translate(720 235) scale(1.0)"/>
+  </g>
+</svg>

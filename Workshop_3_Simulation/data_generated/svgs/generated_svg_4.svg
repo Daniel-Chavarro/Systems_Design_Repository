@@ -1,0 +1,16 @@
+<svg width="200" height="300" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <g id="shirt" fill="#FFFFFF">
+    <path d="M50 30 L150 30 L145 150 L55 150 Z"/>
+    <path d="M25 50 L50 50 L50 120 L30 120 Z"/>
+    <path d="M150 50 L175 50 L170 120 L150 120 Z"/>
+    <path d="M75 30 L125 30 L100 60 Z"/>
+  </g>
+  <g id="jeans" fill="#4682B4">
+    <path d="M50 145 L150 145 L150 170 L105 170 L100 160 L95 170 L50 170 Z"/>
+    <path d="M50 170 L95 170 L90 290 L50 290 Z"/>
+    <path d="M105 170 L150 170 L150 290 L110 290 Z"/>
+    <path d="M100 160 L100 190" stroke="#335588" stroke-width="2"/>
+    <rect x="60" y="150" width="15" height="15" fill="#335588"/>
+    <rect x="125" y="150" width="15" height="15" fill="#335588"/>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wide, sweeping background-like stroke in a muted beige -->
+  <path d="M 0 100 C 150 50 300 150 450 100 C 550 50 600 200 600 200"
+        fill="none" stroke="#D2B48C" stroke-width="80" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Dominant, dark brown brush stroke -->
+  <path d="M 50 200 C 150 100 350 250 500 150 S 580 300 550 350"
+        fill="none" stroke="#8B4513" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Overlapping, slightly lighter sienna stroke for depth -->
+  <path d="M 30 250 C 100 300 250 200 400 250 S 500 380 580 300"
+        fill="none" stroke="#A0522D" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- A contrasting thin stroke in slate gray -->
+  <path d="M 100 50 C 150 20 250 80 300 50"
+        fill="none" stroke="#708090" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Short, thick, blob-like stroke in dark sea green -->
+  <path d="M 450 80 C 470 60 500 100 520 80"
+        fill="none" stroke="#8FBC8F" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Smaller, textured strokes (beige) -->
+  <path d="M 200 300 L 220 310"
+        fill="none" stroke="#D2B48C" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 210 320 L 230 330"
+        fill="none" stroke="#D2B48C" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- More small texture strokes (sienna) -->
+  <path d="M 40 150 L 60 160"
+        fill="none" stroke="#A0522D" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Cluster of small, quick strokes, like splatters or drips -->
+  <path d="M 50 10 Q 60 5 70 10" fill="none" stroke="#8B4513" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 60 15 Q 70 10 80 15" fill="none" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 70 20 Q 80 15 90 20" fill="none" stroke="#A0522D" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 80 25 Q 90 20 100 25" fill="none" stroke="#A0522D" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- A bold, abstract stroke in cadet blue -->
+  <path d="M 10 350 C 80 300 150 380 220 350"
+        fill="none" stroke="#5F9EA0" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Another accent stroke in dark khaki -->
+  <path d="M 300 100 C 310 90 330 110 340 100"
+        fill="none" stroke="#BDB76B" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

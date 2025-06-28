@@ -1,0 +1,74 @@
+<svg width="800" height="600" viewBox="0 0 800 600">
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="600" fill="#87CEEB"/>
+  
+  <!-- Ocean -->
+  <rect x="0" y="300" width="800" height="300" fill="#4682B4"/>
+  
+  <!-- Sand -->
+  <rect x="0" y="450" width="800" height="150" fill="#F4A460"/>
+
+  <!-- Sun -->
+  <circle cx="700" cy="100" r="50" fill="#FFD700"/>
+
+  <!-- Clouds -->
+  <g fill="#FFFFFF" opacity="0.8">
+    <circle cx="100" cy="100" r="30"/>
+    <circle cx="130" cy="90" r="25"/>
+    <circle cx="150" cy="110" r="35"/>
+    <circle cx="170" cy="95" r="28"/>
+    <circle cx="500" cy="120" r="35"/>
+    <circle cx="530" cy="110" r="30"/>
+    <circle cx="560" cy="130" r="40"/>
+    <circle cx="590" cy="115" r="32"/>
+  </g>
+  
+  <!-- Birds -->
+  <polyline points="600,80 610,70 620,80" fill="none" stroke="#333" stroke-width="2"/>
+  <polyline points="630,90 640,80 650,90" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Palm Tree 1 -->
+  <g>
+    <!-- Trunk -->
+    <path d="M 190 450 C 200 300 200 200 195 140 C 190 200 190 300 210 450 Z" fill="#8B4513"/>
+    <!-- Fronds -->
+    <path d="M 195 140 Q 150 100 100 120 Q 160 160 195 140 Z" fill="#228B22"/>
+    <path d="M 195 140 Q 240 100 290 120 Q 230 160 195 140 Z" fill="#228B22"/>
+    <path d="M 195 140 Q 180 80 180 50 Q 210 80 195 140 Z" fill="#228B22"/>
+    <path d="M 195 140 Q 210 80 210 50 Q 180 80 195 140 Z" fill="#228B22"/>
+    <path d="M 195 140 Q 140 160 120 200 Q 190 170 195 140 Z" fill="#228B22"/>
+    <path d="M 195 140 Q 250 160 270 200 Q 200 170 195 140 Z" fill="#228B22"/>
+  </g>
+
+  <!-- Palm Tree 2 -->
+  <g transform="translate(300, 0) scale(0.9)">
+    <!-- Trunk -->
+    <path d="M 190 450 C 200 300 200 200 195 140 C 190 200 190 300 210 450 Z" fill="#8B4513"/>
+    <!-- Fronds -->
+    <path d="M 195 140 Q 150 100 100 120 Q 160 160 195 140 Z" fill="#228B22"/>
+    <path d="M 195 140 Q 240 100 290 120 Q 230 160 195 140 Z" fill="#228B22"/>
+    <path d="M 195 140 Q 180 80 180 50 Q 210 80 195 140 Z" fill="#228B22"/>
+    <path d="M 195 140 Q 210 80 210 50 Q 180 80 195 140 Z" fill="#228B22"/>
+    <path d="M 195 140 Q 140 160 120 200 Q 190 170 195 140 Z" fill="#228B22"/>
+    <path d="M 195 140 Q 250 160 270 200 Q 200 170 195 140 Z" fill="#228B22"/>
+  </g>
+  
+  <!-- Palm Tree 3 -->
+  <g transform="translate(500, -50) scale(1.1)">
+    <!-- Trunk -->
+    <path d="M 190 450 C 200 300 200 200 195 140 C 190 200 190 300 210 450 Z" fill="#8B4513"/>
+    <!-- Fronds -->
+    <path d="M 195 140 Q 150 100 100 120 Q 160 160 195 140 Z" fill="#228B22"/>
+    <path d="M 195 140 Q 240 100 290 120 Q 230 160 195 140 Z" fill="#228B22"/>
+    <path d="M 195 140 Q 180 80 180 50 Q 210 80 195 140 Z" fill="#228B22"/>
+    <path d="M 195 140 Q 210 80 210 50 Q 180 80 195 140 Z" fill="#228B22"/>
+    <path d="M 195 140 Q 140 160 120 200 Q 190 170 195 140 Z" fill="#228B22"/>
+    <path d="M 195 140 Q 250 160 270 200 Q 200 170 195 140 Z" fill="#228B22"/>
+  </g>
+
+  <!-- Ocean Highlights / Reflections -->
+  <ellipse cx="100" cy="380" rx="40" ry="10" fill="#ADD8E6" opacity="0.5"/>
+  <ellipse cx="300" cy="360" rx="50" ry="12" fill="#ADD8E6" opacity="0.5"/>
+  <ellipse cx="500" cy="390" rx="35" ry="8" fill="#ADD8E6" opacity="0.5"/>
+  <ellipse cx="700" cy="370" rx="45" ry="11" fill="#ADD8E6" opacity="0.5"/>
+</svg>

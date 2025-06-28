@@ -1,0 +1,48 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="300" fill="#87CEEB" />
+  <!-- Ocean -->
+  <rect x="0" y="300" width="800" height="150" fill="#4682B4" />
+  <!-- Sand -->
+  <rect x="0" y="450" width="800" height="150" fill="#F4A460" />
+
+  <!-- Sun -->
+  <circle cx="700" cy="100" r="60" fill="#FFD700" />
+
+  <!-- Palm Tree 1 -->
+  <g>
+    <!-- Trunk -->
+    <path d="M150 450 C160 300 170 200 180 150" stroke="#8B4513" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <!-- Leaves -->
+    <path d="M180 150 Q120 100 100 50 C120 60 160 70 180 150 Z" fill="#228B22" />
+    <path d="M180 150 Q240 100 260 50 C240 60 200 70 180 150 Z" fill="#228B22" />
+    <path d="M180 150 Q140 80 100 100 C120 110 160 120 180 150 Z" fill="#228B22" />
+    <path d="M180 150 Q220 80 260 100 C240 110 200 120 180 150 Z" fill="#228B22" />
+    <path d="M180 150 Q170 60 180 30 Q190 60 180 150 Z" fill="#228B22" />
+  </g>
+
+  <!-- Palm Tree 2 -->
+  <g>
+    <!-- Trunk -->
+    <path d="M650 450 C640 300 630 200 620 150" stroke="#8B4513" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <!-- Leaves -->
+    <path d="M620 150 Q560 100 540 50 C560 60 600 70 620 150 Z" fill="#228B22" />
+    <path d="M620 150 Q680 100 700 50 C680 60 640 70 620 150 Z" fill="#228B22" />
+    <path d="M620 150 Q580 80 540 100 C560 110 600 120 620 150 Z" fill="#228B22" />
+    <path d="M620 150 Q660 80 700 100 C680 110 640 120 620 150 Z" fill="#228B22" />
+    <path d="M620 150 Q610 60 620 30 Q630 60 620 150 Z" fill="#228B22" />
+  </g>
+
+  <!-- Clouds -->
+  <ellipse cx="200" cy="100" rx="60" ry="30" fill="white" />
+  <ellipse cx="250" cy="110" rx="70" ry="35" fill="white" />
+  <ellipse cx="220" cy="90" rx="50" ry="25" fill="white" />
+
+  <ellipse cx="500" cy="80" rx="60" ry="30" fill="white" />
+  <ellipse cx="550" cy="90" rx="70" ry="35" fill="white" />
+  <ellipse cx="520" cy="70" rx="50" ry="25" fill="white" />
+
+  <!-- Birds -->
+  <path d="M700 200 Q710 190 720 200" stroke="black" stroke-width="2" fill="none"/>
+  <path d="M720 200 Q730 190 740 200" stroke="black" stroke-width="2" fill="none"/>
+</svg>

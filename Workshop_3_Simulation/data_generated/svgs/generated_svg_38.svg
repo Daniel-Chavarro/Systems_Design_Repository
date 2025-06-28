@@ -1,0 +1,21 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect x="0" y="0" width="1000" height="600" fill="#ADD8E6"/>
+
+  <!-- Distant Hills (Horizon) -->
+  <path d="M0 300 C200 250 800 250 1000 300 L1000 400 L0 400 Z" fill="#654321"/>
+
+  <!-- Left Valley Wall -->
+  <path d="M0 600 L0 350 C150 280 350 230 450 200 L450 600 Z" fill="#4B5320"/>
+
+  <!-- Right Valley Wall -->
+  <path d="M1000 600 L1000 350 C850 280 650 230 550 200 L550 600 Z" fill="#4B5320"/>
+
+  <!-- River -->
+  <path d="M250 600 L750 600 L550 200 L450 200 Z" fill="#4682B4"/>
+
+  <!-- River reflections/flow lines -->
+  <line x1="350" y1="550" x2="650" y2="550" stroke="#A9D0E7" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <line x1="380" y1="450" x2="620" y2="450" stroke="#A9D0E7" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="420" y1="350" x2="580" y2="350" stroke="#A9D0E7" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+</svg>

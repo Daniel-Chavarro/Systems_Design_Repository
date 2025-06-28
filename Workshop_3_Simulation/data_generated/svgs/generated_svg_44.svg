@@ -1,0 +1,23 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky: Gradient simulation with stacked rectangles for dusk effect -->
+  <rect x="0" y="0" width="800" height="100" fill="#201030" />
+  <rect x="0" y="100" width="800" height="100" fill="#302040" />
+  <rect x="0" y="200" width="800" height="100" fill="#403060" />
+  <rect x="0" y="300" width="800" height="100" fill="#504070" />
+  <rect x="0" y="400" width="800" height="100" fill="#605080" />
+
+  <!-- Ground / Horizon line -->
+  <rect x="0" y="500" width="800" height="100" fill="#201030" />
+
+  <!-- Subtle Moon -->
+  <circle cx="700" cy="150" r="25" fill="#C8C0D8" />
+
+  <!-- Forest: Background trees (lighter shade for depth, shorter peaks) -->
+  <path d="M0 480 L40 400 L80 480 L120 420 L160 480 L200 410 L240 480 L280 430 L320 480 L360 400 L400 480 L440 420 L480 480 L520 410 L560 480 L600 430 L640 480 L680 400 L720 480 L760 420 L800 480 V600 H0 Z" fill="#302040" />
+
+  <!-- Forest: Midground trees (medium shade, taller peaks) -->
+  <path d="M0 500 L30 400 L60 500 L90 420 L120 500 L150 410 L180 500 L210 430 L240 500 L270 400 L300 500 L330 420 L360 500 L390 410 L420 500 L450 430 L480 500 L510 400 L540 500 L570 420 L600 500 L630 410 L660 500 L690 430 L720 500 L750 400 L780 500 L800 450 V600 H0 Z" fill="#201030" />
+
+  <!-- Forest: Foreground trees (darkest shade, tallest peaks) -->
+  <path d="M0 500 L20 350 L40 500 L60 380 L80 500 L100 360 L120 500 L140 390 L160 500 L180 350 L200 500 L220 370 L240 500 L260 360 L280 500 L300 390 L320 500 L340 350 L360 500 L380 370 L400 500 L420 360 L440 500 L460 390 L480 500 L500 350 L520 500 L540 370 L560 500 L580 360 L600 500 L620 390 L640 500 L660 350 L680 500 L700 370 L720 500 L740 360 L760 500 L780 390 L800 500 V600 H0 Z" fill="#100818" />
+</svg>

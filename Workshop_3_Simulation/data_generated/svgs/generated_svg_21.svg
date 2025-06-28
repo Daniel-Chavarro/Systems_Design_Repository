@@ -1,0 +1,65 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <circle id="small-glow-circle" r="8" fill="#FFFFFF" fill-opacity="0.3" stroke="none"/>
+    <circle id="medium-glow-circle" r="15" fill="#FFFFFF" fill-opacity="0.2" stroke="none"/>
+    <circle id="large-glow-circle" r="25" fill="#FFFFFF" fill-opacity="0.1" stroke="none"/>
+    <circle id="dot" r="2.5" fill="#FFFF00" fill-opacity="0.8"/>
+  </defs>
+
+  <rect x="0" y="0" width="600" height="600" fill="#1A1A1A"/>
+
+  <!-- Concentric circles forming a soft background ripple -->
+  <circle cx="300" cy="300" r="250" fill="none" stroke="#333333" stroke-width="0.5"/>
+  <circle cx="305" cy="305" r="200" fill="none" stroke="#444444" stroke-width="0.7"/>
+  <circle cx="295" cy="295" r="150" fill="none" stroke="#555555" stroke-width="1"/>
+
+  <!-- Groups of glowing circles scattered and transformed -->
+  <g transform="translate(100, 100) rotate(10)">
+    <use href="#medium-glow-circle" x="0" y="0"/>
+    <use href="#small-glow-circle" x="50" y="-20"/>
+    <use href="#large-glow-circle" x="-30" y="60"/>
+  </g>
+  <g transform="translate(450, 200) rotate(15)">
+    <use href="#large-glow-circle" x="0" y="0"/>
+    <use href="#medium-glow-circle" x="40" y="30"/>
+    <use href="#small-glow-circle" x="-60" y="10"/>
+  </g>
+  <g transform="translate(200, 480) rotate(-30)">
+    <use href="#small-glow-circle" x="0" y="0"/>
+    <use href="#large-glow-circle" x="20" y="-40"/>
+    <use href="#medium-glow-circle" x="-50" y="-10"/>
+  </g>
+  <g transform="translate(500, 500) rotate(20)">
+    <use href="#medium-glow-circle" x="0" y="0"/>
+    <use href="#small-glow-circle" x="30" y="20"/>
+    <use href="#large-glow-circle" x="-20" y="-30"/>
+  </g>
+  <g transform="translate(80, 400) rotate(-10)">
+    <use href="#large-glow-circle" x="0" y="0"/>
+    <use href="#medium-glow-circle" x="15" y="-40"/>
+  </g>
+
+  <!-- Subtle grid lines -->
+  <line x1="50" y1="50" x2="550" y2="50" stroke="#666666" stroke-width="0.2"/>
+  <line x1="50" y1="550" x2="550" y2="550" stroke="#666666" stroke-width="0.2"/>
+  <line x1="50" y1="50" x2="50" y2="550" stroke="#666666" stroke-width="0.2"/>
+  <line x1="550" y1="50" x2="550" y2="550" stroke="#666666" stroke-width="0.2"/>
+
+  <!-- Diagonal lines -->
+  <line x1="100" y1="100" x2="500" y2="500" stroke="#777777" stroke-width="0.3"/>
+  <line x1="100" y1="500" x2="500" y2="100" stroke="#777777" stroke-width="0.3"/>
+
+  <!-- Scattered bright dots -->
+  <use href="#dot" x="300" y="50"/>
+  <use href="#dot" x="50" y="300"/>
+  <use href="#dot" x="550" y="300"/>
+  <use href="#dot" x="300" y="550"/>
+  <use href="#dot" x="150" y="150"/>
+  <use href="#dot" x="450" y="150"/>
+  <use href="#dot" x="150" y="450"/>
+  <use href="#dot" x="450" y="450"/>
+  <use href="#dot" x="250" y="300"/>
+  <use href="#dot" x="350" y="300"/>
+  <use href="#dot" x="300" y="250"/>
+  <use href="#dot" x="300" y="350"/>
+</svg>

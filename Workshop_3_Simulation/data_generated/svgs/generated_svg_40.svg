@@ -1,0 +1,33 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="350" fill="#87CEEB"/>
+
+  <!-- Hills -->
+  <!-- Far distant hill (lighter green) -->
+  <path d="M0 350 C100 320, 200 340, 300 330, 400 310, 500 340, 600 330, 700 300, 800 320 L800 500 L0 500 Z" fill="#6B8E23"/>
+  <!-- Mid-ground hill (medium green) -->
+  <path d="M0 380 C150 350, 300 400, 450 370, 600 420, 750 390, 800 410 L800 500 L0 500 Z" fill="#556B2F"/>
+  <!-- Foreground hill (darker green) -->
+  <path d="M0 430 C200 390, 400 450, 600 410, 800 450 L800 500 L0 500 Z" fill="#364222"/>
+
+  <!-- Clouds -->
+  <g fill="#FFFFFF" fill-opacity="0.9">
+    <!-- Cloud 1 -->
+    <ellipse cx="100" cy="80" rx="40" ry="25"/>
+    <ellipse cx="135" cy="70" rx="50" ry="30"/>
+    <ellipse cx="170" cy="85" rx="45" ry="28"/>
+    <ellipse cx="120" cy="100" rx="40" ry="25"/>
+
+    <!-- Cloud 2 -->
+    <ellipse cx="350" cy="120" rx="45" ry="28"/>
+    <ellipse cx="385" cy="110" rx="55" ry="32"/>
+    <ellipse cx="420" cy="125" rx="50" ry="30"/>
+    <ellipse cx="370" cy="140" rx="45" ry="28"/>
+
+    <!-- Cloud 3 -->
+    <ellipse cx="600" cy="90" rx="35" ry="22"/>
+    <ellipse cx="635" cy="80" rx="45" ry="27"/>
+    <ellipse cx="670" cy="95" rx="40" ry="25"/>
+    <ellipse cx="620" cy="110" rx="35" ry="22"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky layers: transitioning from deep blue/purple at top to warm orange/pink at horizon -->
+  <rect x="0" y="0" width="800" height="150" fill="#222A40"/>
+  <rect x="0" y="150" width="800" height="100" fill="#453E65"/>
+  <rect x="0" y="250" width="800" height="100" fill="#8C4E6F"/>
+  <rect x="0" y="350" width="800" height="50" fill="#E07B55"/>
+
+  <!-- Sun: partially set on the horizon (implied at y=400) -->
+  <circle cx="400" cy="390" r="80" fill="#FFA500" opacity="0.8"/>
+  <circle cx="400" cy="390" r="60" fill="#FFD700"/>
+
+  <!-- Lake layers: reflecting sky colors, appearing darker and calmer -->
+  <rect x="0" y="400" width="800" height="50" fill="#F2C463"/>
+  <rect x="0" y="450" width="800" height="50" fill="#D06A45"/>
+  <rect x="0" y="500" width="800" height="50" fill="#7C3E5F"/>
+  <rect x="0" y="550" width="800" height="50" fill="#1A2030"/>
+
+  <!-- Sun reflection in water: an elongated ellipse, mimicking the sun's glow -->
+  <ellipse cx="400" cy="410" rx="70" ry="40" fill="#FFA500" opacity="0.6"/>
+  <ellipse cx="400" cy="410" rx="50" ry="25" fill="#FFD700" opacity="0.8"/>
+</svg>

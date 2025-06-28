@@ -1,0 +1,24 @@
+<svg width="200" height="300" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- White Shirt -->
+  <g id="shirt">
+    <rect x="50" y="20" width="100" height="100" fill="white"/>
+    <!-- Collar/Neck opening -->
+    <path d="M60 20 L140 20 L100 60 Z" fill="white"/>
+    <!-- Left Sleeve -->
+    <rect x="30" y="50" width="20" height="50" fill="white"/>
+    <!-- Right Sleeve -->
+    <rect x="150" y="50" width="20" height="50" fill="white"/>
+  </g>
+
+  <!-- Blue Jeans -->
+  <g id="jeans">
+    <!-- Waist/Upper Part -->
+    <rect x="40" y="120" width="120" height="50" fill="#2C5E91"/>
+    <!-- Simple Belt Line -->
+    <rect x="40" y="128" width="120" height="8" fill="#5A402D"/>
+    <!-- Left Leg -->
+    <rect x="45" y="170" width="50" height="110" fill="#2C5E91"/>
+    <!-- Right Leg -->
+    <rect x="105" y="170" width="50" height="110" fill="#2C5E91"/>
+  </g>
+</svg>

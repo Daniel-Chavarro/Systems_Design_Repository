@@ -1,0 +1,48 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="300" fill="skyblue"/>
+
+  <!-- Horizon background (distant forest/ground) -->
+  <rect x="0" y="300" width="800" height="300" fill="olivedrab"/>
+
+  <!-- Path tapering into the distance -->
+  <path d="M 250 600 L 370 300 L 430 300 L 550 600 Z" fill="sienna"/>
+
+  <!-- Distant Trees (smaller, higher on horizon, simpler foliage) -->
+  <!-- Left group -->
+  <rect x="100" y="270" width="8" height="60" fill="brown"/><path d="M 95 270 Q 104 240 110 270 Z" fill="darkseagreen"/>
+  <rect x="140" y="275" width="7" height="50" fill="brown"/><path d="M 136 275 Q 143 250 148 275 Z" fill="darkseagreen"/>
+  <rect x="180" y="270" width="8" height="65" fill="brown"/><path d="M 175 270 Q 184 235 190 270 Z" fill="darkseagreen"/>
+  <rect x="220" y="278" width="6" height="45" fill="brown"/><path d="M 217 278 Q 223 255 229 278 Z" fill="darkseagreen"/>
+  <!-- Right group -->
+  <rect x="690" y="270" width="8" height="60" fill="brown"/><path d="M 685 270 Q 694 240 700 270 Z" fill="darkseagreen"/>
+  <rect x="650" y="275" width="7" height="50" fill="brown"/><path d="M 646 275 Q 653 250 658 275 Z" fill="darkseagreen"/>
+  <rect x="610" y="270" width="8" height="65" fill="brown"/><path d="M 605 270 Q 614 235 620 270 Z" fill="darkseagreen"/>
+  <rect x="570" y="278" width="6" height="45" fill="brown"/><path d="M 567 278 Q 573 255 579 278 Z" fill="darkseagreen"/>
+
+  <!-- Mid-ground Trees (medium size, slightly lower, more detailed foliage) -->
+  <!-- Left side -->
+  <rect x="50" y="300" width="15" height="120" fill="saddlebrown"/><path d="M 40 300 C 20 230, 80 230, 60 300 Z M 45 280 C 25 210, 75 210, 55 280 Z" fill="forestgreen"/>
+  <rect x="110" y="310" width="12" height="100" fill="saddlebrown"/><path d="M 100 310 C 85 250, 135 250, 120 310 Z" fill="forestgreen"/>
+  <rect x="180" y="320" width="10" height="90" fill="saddlebrown"/><path d="M 170 320 C 155 260, 205 260, 190 320 Z" fill="forestgreen"/>
+  <!-- Right side -->
+  <rect x="735" y="300" width="15" height="120" fill="saddlebrown"/><path d="M 725 300 C 705 230, 765 230, 745 300 Z M 730 280 C 710 210, 760 210, 740 280 Z" fill="forestgreen"/>
+  <rect x="680" y="310" width="12" height="100" fill="saddlebrown"/><path d="M 670 310 C 655 250, 705 250, 690 310 Z" fill="forestgreen"/>
+  <rect x="610" y="320" width="10" height="90" fill="saddlebrown"/><path d="M 600 320 C 585 260, 635 260, 620 320 Z" fill="forestgreen"/>
+
+  <!-- Closer Trees (largest, closest to viewer, most detailed foliage) -->
+  <!-- Left side -->
+  <rect x="10" y="350" width="25" height="200" fill="brown"/><path d="M -5 350 C -40 180, 50 180, 30 350 Z M 5 330 C -20 160, 40 160, 20 330 Z" fill="darkgreen"/>
+  <rect x="80" y="380" width="20" height="150" fill="brown"/><path d="M 70 380 C 50 250, 110 250, 90 380 Z" fill="darkgreen"/>
+  <rect x="150" y="400" width="18" height="130" fill="brown"/><path d="M 140 400 C 120 280, 180 280, 160 400 Z" fill="darkgreen"/>
+  <!-- Right side -->
+  <rect x="765" y="350" width="25" height="200" fill="brown"/><path d="M 755 350 C 720 180, 810 180, 790 350 Z M 770 330 C 745 160, 805 160, 785 330 Z" fill="darkgreen"/>
+  <rect x="700" y="380" width="20" height="150" fill="brown"/><path d="M 690 380 C 670 250, 730 250, 710 380 Z" fill="darkgreen"/>
+  <rect x="620" y="400" width="18" height="130" fill="brown"/><path d="M 610 400 C 590 280, 650 280, 630 400 Z" fill="darkgreen"/>
+
+  <!-- Ground details (rocks, tufts of grass) -->
+  <ellipse cx="290" cy="580" rx="20" ry="10" fill="grey"/>
+  <ellipse cx="500" cy="570" rx="15" ry="8" fill="grey"/>
+  <path d="M 200 600 L 250 500 L 300 600 Z" fill="darkgreen" opacity="0.3"/>
+  <path d="M 600 600 L 550 500 L 500 600 Z" fill="darkgreen" opacity="0.3"/>
+</svg>

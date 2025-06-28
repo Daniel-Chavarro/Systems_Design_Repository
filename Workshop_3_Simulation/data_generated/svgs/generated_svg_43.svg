@@ -1,0 +1,24 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="500" fill="#87CEEB"/>
+
+  <!-- Distant Mountains (light blue-grey, atmospheric perspective) -->
+  <path d="M0 380 L100 310 L250 350 L400 290 L550 330 L700 280 L800 310 V500 H0 Z" fill="#B0C4DE"/>
+  <!-- Snow on distant peaks -->
+  <path d="M100 310 L95 320 L105 320 Z" fill="white"/>
+  <path d="M400 290 L395 300 L405 300 Z" fill="white"/>
+  <path d="M700 280 L695 290 L705 290 Z" fill="white"/>
+
+  <!-- Mid-distance Mountains (medium gray, slightly more defined) -->
+  <path d="M0 430 L150 350 L350 400 L550 330 L750 380 L800 350 V500 H0 Z" fill="#778899"/>
+  <!-- Snow on mid-distance peaks -->
+  <path d="M150 350 L145 360 L155 360 Z" fill="white"/>
+  <path d="M550 330 L545 340 L555 340 Z" fill="white"/>
+  <path d="M750 380 L745 390 L755 390 Z" fill="white"/>
+
+  <!-- Foreground Mountains (darker, prominent, some peaks higher) -->
+  <path d="M0 500 L0 450 L200 380 L400 430 L600 360 L800 410 L800 500 Z" fill="#5F9EA0"/>
+  <!-- Snow on foreground peaks -->
+  <path d="M200 380 L195 390 L205 390 Z" fill="white"/>
+  <path d="M600 360 L595 370 L605 370 Z" fill="white"/>
+</svg>

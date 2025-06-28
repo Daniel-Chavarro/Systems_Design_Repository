@@ -1,0 +1,28 @@
+<svg width="400" height="600" viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main coat body, sleeves, and collar group -->
+  <g fill="#5C4033" stroke="#3A251A" stroke-width="3">
+    <!-- Coat Body (A-line shape) -->
+    <path d="M 150 100 L 250 100 L 280 500 L 120 500 Z"/>
+
+    <!-- Left Sleeve -->
+    <path d="M 100 100 L 150 100 L 150 350 L 100 350 Z"/>
+
+    <!-- Right Sleeve -->
+    <path d="M 250 100 L 300 100 L 300 350 L 250 350 Z"/>
+
+    <!-- Collar -->
+    <path d="M 130 80 L 270 80 L 250 120 L 150 120 Z"/>
+  </g>
+
+  <!-- Front seam line -->
+  <line x1="200" y1="160" x2="200" y2="480" stroke="#3A251A" stroke-width="2"/>
+
+  <!-- Buttons Group -->
+  <g fill="#A0785A" stroke="#3A251A" stroke-width="1.5">
+    <circle cx="200" cy="220" r="8"/>
+    <circle cx="200" cy="280" r="8"/>
+    <circle cx="200" cy="340" r="8"/>
+    <circle cx="200" cy="400" r="8"/>
+    <circle cx="200" cy="460" r="8"/>
+  </g>
+</svg>

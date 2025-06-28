@@ -1,0 +1,22 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="600" fill="#87CEEB"/>
+
+  <!-- Hills -->
+  <g>
+    <!-- Far hills (lighter green) -->
+    <path fill="#6B9E6B" d="M0 600 L0 400 Q100 370 250 400 Q400 430 550 400 Q700 370 800 400 L800 600 Z"/>
+    <!-- Near hills (darker green) -->
+    <path fill="#3C673C" d="M0 600 L0 450 Q150 420 350 470 Q550 430 700 480 Q750 460 800 470 L800 600 Z"/>
+  </g>
+
+  <!-- Clouds -->
+  <g>
+    <path fill="#F0F8FF" d="M100 150 Q130 110 180 120 T230 150 T180 180 T130 160 Z"/>
+    <path fill="#F0F8FF" d="M400 100 Q430 60 480 70 T530 100 T480 130 T430 110 Z"/>
+    <path fill="#F0F8FF" d="M650 160 Q680 120 730 130 T780 160 T730 190 T680 170 Z"/>
+    <path fill="#F0F8FF" d="M250 200 Q280 160 330 170 T380 200 T330 230 T280 210 Z"/>
+    <path fill="#F0F8FF" d="M50 80 Q80 40 130 50 T180 80 T130 110 T80 90 Z"/>
+    <path fill="#F0F8FF" d="M500 250 Q530 210 580 220 T630 250 T580 280 T530 260 Z"/>
+  </g>
+</svg>

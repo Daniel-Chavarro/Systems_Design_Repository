@@ -1,0 +1,32 @@
+<svg width="400" height="600" viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(150, 50)">
+    <!-- Head -->
+    <circle cx="50" cy="50" r="40" fill="#F0C7B6"/>
+    <!-- Hat -->
+    <ellipse cx="50" cy="25" rx="45" ry="10" fill="#D2B48C"/> <!-- Hat brim -->
+    <rect x="20" y="5" width="60" height="20" fill="#D2B48C"/> <!-- Hat crown -->
+    <!-- Sunglasses -->
+    <path d="M20 45 Q30 35 40 45 L60 45 Q70 35 80 45 Z M40 48 H60 V52 H40 Z" fill="#333"/>
+    <!-- Neck -->
+    <rect x="40" y="88" width="20" height="15" fill="#F0C7B6"/>
+    <!-- Torso (T-shirt) -->
+    <path d="M0 100 C-10 100 -10 200 0 250 H100 C110 200 110 100 100 100 Z" fill="#FFFFFF"/>
+    <!-- Neckline for T-shirt -->
+    <path d="M40 100 C45 95 55 95 60 100 Z" fill="#F0C7B6"/>
+    <!-- Arms -->
+    <path d="M0 150 C-20 180 -20 220 0 250 L10 250 C-10 220 -10 180 0 150 Z" fill="#F0C7B6"/> <!-- Left Arm -->
+    <path d="M100 150 C120 180 120 220 100 250 L90 250 C110 220 110 180 100 150 Z" fill="#F0C7B6"/> <!-- Right Arm -->
+    <!-- Shorts Waistband -->
+    <rect x="10" y="250" width="80" height="10" fill="#87CEEB"/>
+    <!-- Shorts Left Leg -->
+    <path d="M10 260 H40 L35 320 H15 Z" fill="#87CEEB"/>
+    <!-- Shorts Right Leg -->
+    <path d="M60 260 H90 L85 320 H65 Z" fill="#87CEEB"/>
+    <!-- Legs -->
+    <rect x="15" y="320" width="20" height="160" fill="#F0C7B6"/> <!-- Left Leg -->
+    <rect x="65" y="320" width="20" height="160" fill="#F0C7B6"/> <!-- Right Leg -->
+    <!-- Feet (Sandals) -->
+    <path d="M15 480 L10 490 L30 495 L35 485 Z" fill="#A0522D"/> <!-- Left Sandal -->
+    <path d="M65 480 L60 490 L80 495 L85 485 Z" fill="#A0522D"/> <!-- Right Sandal -->
+  </g>
+</svg>

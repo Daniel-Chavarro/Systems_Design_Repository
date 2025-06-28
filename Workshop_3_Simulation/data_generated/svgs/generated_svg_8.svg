@@ -1,0 +1,51 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="400" fill="#87CEEB"/>
+
+  <!-- Distant horizon / forest mass -->
+  <rect x="0" y="350" width="800" height="250" fill="#4F7942"/>
+
+  <!-- Forest path, narrowing towards the horizon -->
+  <path d="M 0 600 L 280 400 C 350 380 450 380 520 400 L 800 600 Z" fill="#A0522D"/>
+
+  <defs>
+    <!-- Definition for Tree Type A: Standard tall tree -->
+    <g id="treeA">
+      <!-- Trunk -->
+      <rect x="-10" y="-100" width="20" height="100" fill="#8B4513"/>
+      <!-- Foliage -->
+      <path d="M-45,-95 C-65,-140 -40,-200 0,-220 C40,-200 65,-140 45,-95 Q0,-115 -45,-95 Z" fill="#228B22"/>
+    </g>
+    <!-- Definition for Tree Type B: Slightly taller tree with varied foliage color -->
+    <g id="treeB">
+      <!-- Trunk -->
+      <rect x="-8" y="-120" width="16" height="120" fill="#8B4513"/>
+      <!-- Foliage -->
+      <path d="M-40,-115 C-60,-160 -35,-220 0,-240 C35,-220 60,-160 40,-115 Q0,-135 -40,-115 Z" fill="#3CB371"/>
+    </g>
+  </defs>
+
+  <!-- Distant trees (smaller, positioned higher on the canvas near the horizon) -->
+  <use href="#treeA" transform="translate(120, 370) scale(0.4)"/>
+  <use href="#treeB" transform="translate(180, 375) scale(0.45)"/>
+  <use href="#treeA" transform="translate(80, 380) scale(0.5)"/>
+  <use href="#treeB" transform="translate(700, 370) scale(0.4)"/>
+  <use href="#treeA" transform="translate(620, 375) scale(0.45)"/>
+  <use href="#treeB" transform="translate(750, 380) scale(0.5)"/>
+
+  <!-- Mid-ground trees (medium size, positioned lower than distant trees) -->
+  <use href="#treeA" transform="translate(250, 450) scale(0.7)"/>
+  <use href="#treeB" transform="translate(170, 460) scale(0.75)"/>
+  <use href="#treeA" transform="translate(320, 460) scale(0.7)"/>
+  <use href="#treeB" transform="translate(550, 450) scale(0.7)"/>
+  <use href="#treeA" transform="translate(630, 460) scale(0.75)"/>
+  <use href="#treeB" transform="translate(480, 460) scale(0.7)"/>
+
+  <!-- Foreground trees (largest, positioned lowest on the canvas) -->
+  <use href="#treeA" transform="translate(100, 560) scale(1.2)"/>
+  <use href="#treeB" transform="translate(30, 590) scale(1.3)"/>
+  <use href="#treeA" transform="translate(200, 540) scale(1.1)"/>
+  <use href="#treeB" transform="translate(700, 560) scale(1.2)"/>
+  <use href="#treeA" transform="translate(770, 590) scale(1.3)"/>
+  <use href="#treeB" transform="translate(600, 540) scale(1.1)"/>
+</svg>

@@ -1,0 +1,53 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- Palm leaf definition: points upwards relative to its tip (0,0) -->
+    <path id="palm-leaf" d="M0 0 L-20 -70 L-5 -50 L0 -30 L5 -50 L20 -70 L0 0 Z" fill="#228B22" />
+  </defs>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="400" fill="#87CEEB" />
+
+  <!-- Sun -->
+  <circle cx="650" cy="100" r="60" fill="#FFD700" />
+
+  <!-- Ocean (horizon line at y=300) -->
+  <rect x="0" y="300" width="800" height="300" fill="#4682B4" />
+
+  <!-- Sand (curved beach line) -->
+  <path d="M0 400 C200 370, 600 430, 800 400 L800 600 L0 600 Z" fill="#F4A460" />
+
+  <!-- Palm Tree 1 -->
+  <g>
+    <!-- Trunk (curved) -->
+    <path d="M550 250 Q560 350, 540 450 Q530 460, 550 450" fill="#8B4513" stroke="#5A2E0C" stroke-width="2" />
+    <!-- Leaves: positioned at trunk top (550,250) and rotated -->
+    <use xlink:href="#palm-leaf" transform="translate(550,250) rotate(0)" />
+    <use xlink:href="#palm-leaf" transform="translate(550,250) rotate(45)" />
+    <use xlink:href="#palm-leaf" transform="translate(550,250) rotate(90)" />
+    <use xlink:href="#palm-leaf" transform="translate(550,250) rotate(135)" />
+    <use xlink:href="#palm-leaf" transform="translate(550,250) rotate(180)" />
+    <use xlink:href="#palm-leaf" transform="translate(550,250) rotate(225)" />
+    <use xlink:href="#palm-leaf" transform="translate(550,250) rotate(270)" />
+    <use xlink:href="#palm-leaf" transform="translate(550,250) rotate(315)" />
+  </g>
+
+  <!-- Palm Tree 2 (smaller, in foreground/slightly different position) -->
+  <g transform="translate(-150, 80) scale(0.7)">
+    <!-- Trunk (curved) -->
+    <path d="M550 250 Q560 350, 540 450 Q530 460, 550 450" fill="#8B4513" stroke="#5A2E0C" stroke-width="2" />
+    <!-- Leaves -->
+    <use xlink:href="#palm-leaf" transform="translate(550,250) rotate(0)" />
+    <use xlink:href="#palm-leaf" transform="translate(550,250) rotate(45)" />
+    <use xlink:href="#palm-leaf" transform="translate(550,250) rotate(90)" />
+    <use xlink:href="#palm-leaf" transform="translate(550,250) rotate(135)" />
+    <use xlink:href="#palm-leaf" transform="translate(550,250) rotate(180)" />
+    <use xlink:href="#palm-leaf" transform="translate(550,250) rotate(225)" />
+    <use xlink:href="#palm-leaf" transform="translate(550,250) rotate(270)" />
+    <use xlink:href="#palm-leaf" transform="translate(550,250) rotate(315)" />
+  </g>
+
+  <!-- Water ripples/highlights near horizon -->
+  <line x1="100" y1="310" x2="200" y2="310" stroke="#ADD8E6" stroke-width="2" opacity="0.6" />
+  <line x1="300" y1="320" x2="400" y2="320" stroke="#ADD8E6" stroke-width="2" opacity="0.6" />
+  <line x1="500" y1="315" x2="600" y2="315" stroke="#ADD8E6" stroke-width="2" opacity="0.6" />
+</svg>

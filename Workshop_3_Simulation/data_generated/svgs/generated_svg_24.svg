@@ -1,0 +1,25 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="600" height="400" fill="#F5F5F5"/>
+
+  <!-- Abstract triangles in a modern palette -->
+  <polygon points="50,50 250,100 150,200" fill="#324664" stroke="#25354F" stroke-width="2"/>
+  <polygon points="200,80 400,20 300,180" fill="#B45A46" stroke="#8A4537" stroke-width="2"/>
+  <polygon points="10,250 180,350 50,390" fill="#508C82" stroke="#3D6B63" stroke-width="2"/>
+  <polygon points="300,220 500,250 400,370" fill="#F0DC9F" stroke="#C7B27C" stroke-width="2"/>
+
+  <!-- Overlapping and translucent triangles -->
+  <polygon points="180,150 380,80 280,280" fill="#324664" fill-opacity="0.7" stroke="#25354F" stroke-width="1.5"/>
+  <polygon points="450,10 580,70 500,170" fill="#B45A46" fill-opacity="0.8" stroke="#8A4537" stroke-width="1"/>
+  <polygon points="0,100 100,150 50,200" fill="#508C82" fill-opacity="0.9" stroke="#3D6B63" stroke-width="1"/>
+  <polygon points="520,300 600,350 480,390" fill="#F0DC9F" fill-opacity="0.7" stroke="#C7B27C" stroke-width="1.5"/>
+
+  <!-- Smaller and varied orientation triangles -->
+  <polygon points="50,10 150,20 100,80" fill="#B45A46" stroke="#8A4537" stroke-width="1"/>
+  <polygon points="500,0 600,50 550,120" fill="#508C82" stroke="#3D6B63" stroke-width="1"/>
+  <polygon points="250,300 350,280 300,360" fill="#324664" fill-opacity="0.6" stroke="#25354F" stroke-width="1"/>
+  <polygon points="40,300 100,280 70,350" fill="#F0DC9F" fill-opacity="0.8" stroke="#C7B27C" stroke-width="1"/>
+  <polygon points="100,0 200,0 150,50" fill="#324664" fill-opacity="0.9" stroke="#25354F" stroke-width="1"/>
+  <polygon points="300,100 320,150 280,180" fill="#B45A46" fill-opacity="0.7" stroke="#8A4537" stroke-width="1"/>
+  <polygon points="150,200 250,220 200,280" fill="#508C82" fill-opacity="0.8" stroke="#3D6B63" stroke-width="1"/>
+  <polygon points="400,100 450,150 350,180" fill="#F0DC9F" fill-opacity="0.6" stroke="#C7B27C" stroke-width="1"/>
+</svg>

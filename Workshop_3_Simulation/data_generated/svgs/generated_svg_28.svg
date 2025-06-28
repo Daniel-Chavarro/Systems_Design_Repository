@@ -1,0 +1,10 @@
+<svg width="200" height="400" viewBox="0 0 200 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main Gown Body -->
+  <path d="M 90 40 C 70 50 60 100 65 140 C 60 180 50 250 40 350 L 160 350 C 150 250 140 180 135 140 C 140 100 130 50 110 40 Z" fill="#4B0082"/>
+  
+  <!-- Highlight on Gown for Dimension -->
+  <path d="M 98 50 C 85 60 75 100 80 135 C 75 170 65 240 55 340 L 125 340 C 135 240 125 170 120 135 C 125 100 115 60 102 50 Z" fill="#9370DB"/>
+  
+  <!-- Simple Neckline Detail -->
+  <circle cx="100" cy="45" r="2.5" fill="#FFD700"/>
+</svg>
